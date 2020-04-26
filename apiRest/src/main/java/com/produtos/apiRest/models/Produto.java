@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "TB_PRODUTO")
+@Table(name = "TB_PRODUTO")///////////////////
 public class Produto implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
@@ -28,6 +28,7 @@ public class Produto implements Serializable{
 	
 	@NotNull
 	private BigDecimal valor;
+	
 	
 
 }						
